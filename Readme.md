@@ -1,4 +1,3 @@
-﻿
 Leverage the Power of HL7 Message Parsing with Azure Functions and NHApi Library
 In the realm of healthcare IT, interoperability and efficient data exchange between disparate systems are paramount. HL7 (Health Level Seven) standards play a critical role in ensuring seamless communication in healthcare environments. Managing and parsing these HL7 messages can be a daunting task without the right tools. Fortunately, the emergence of a sophisticated solution, showcased through the HL7MessageParser repository on GitHub, provides a powerful approach to handle this complexity with ease.
 
@@ -37,16 +36,8 @@ After making the necessary modifications, deploy your Azure Function to the clou
 Testing and Verification
 Once deployed, you can test the functionality of your HL7MessageParser by sending an HL7 message to your Azure Function's endpoint. The response will validate the success of the parsing process. Tools like Postman or any HTTP client can facilitate this testing.
 
-Conclusion
-The synergy between Azure Functions, NHApi, and the HL7MessageParser offers a potent solution for handling HL7 messages within healthcare applications. Whether you're building a patient data integration platform, a healthcare analytics tool, or any application that requires HL7 message parsing, this repository serves as an invaluable resource. Embrace this modern approach to HL7 message parsing and elevate your healthcare applications to new levels of interoperability and efficiency.
+Here you have a Message Example:
 
-As healthcare IT continues to evolve, solutions like the HL7MessageParser demonstrate the industry's progression toward more connected and interoperable systems. By leveraging cloud computing and specialized libraries, developers can now address complex challenges with unprecedented ease and scalability.
-
-
-
-
-
-HL7 Demo Message
 
 MSH|^~\&|SendingApp|SendingFac|ReceivingApp|ReceivingFac|20120411070545||ORU^R01|59689|P|2.3
 PID|1||PATID1234^5^M11^ADT1^MR^GOOD HEALTH HOSPITAL~123456789^^^USSSA^SS||EVERYMAN^ADAM^A^III||19610615|M||C|2222 HOME STREET^^GREENSBORO^NC^27401-1020|GL|(555) 555-2004|(555)555-2004||S||PATID12345001^2^M10^ADT1^AN^A|444333333|987654^NC|
@@ -67,3 +58,13 @@ OBX|11|NM|mcv^Mcv^Local^787-2^Mcv^LN||80|fl|77-98||||F|||20120410160227|lab|12^X
 OBX|12|NM|mch^Mch||30|pg|27-35||||F|||20120410160227|lab|12^XYZ LAB|
 OBX|13|NM|mchc^Mchc||32|g/dl|32-35||||F|||20120410160227|lab|12^XYZ LAB|
 OBX|14|NM|plt^Platelets||221|/nl|140-400||||F|||20120410160227|lab|12^XYZ LAB|
+
+
+
+
+Conclusion
+The synergy between Azure Functions, NHApi, and the HL7MessageParser offers a potent solution for handling HL7 messages within healthcare applications. Whether you're building a patient data integration platform, a healthcare analytics tool, or any application that requires HL7 message parsing, this repository serves as an invaluable resource. Embrace this modern approach to HL7 message parsing and elevate your healthcare applications to new levels of interoperability and efficiency.
+
+As healthcare IT continues to evolve, solutions like the HL7MessageParser demonstrate the industry's progression toward more connected and interoperable systems. By leveraging cloud computing and specialized libraries, developers can now address complex challenges with unprecedented ease and scalability.
+
+

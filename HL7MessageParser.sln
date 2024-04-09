@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HL7MessageParser", "HL7Mess
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7431B5C7-73CB-40E9-AC82-3455A75D2170}"
 	ProjectSection(SolutionItems) = preProject
-		HL7MessageParser\README.md = HL7MessageParser\README.md
+		Readme.md = Readme.md
 	EndProjectSection
 EndProject
 Global
