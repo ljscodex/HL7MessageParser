@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "HL7MessageParser": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7074"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32677,
+      "useSSL": false
+    }
+  }
+}
